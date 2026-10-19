@@ -1,0 +1,10 @@
+{
+  "name": "ambitious-task-upgrader",
+  "version": "1.0.0",
+  "title": "Ambitious Task Upgrader",
+  "description": "Upgrade tasks into deeper versions with purpose, mechanisms, raw evidence, and independent validation.",
+  "entrypoint": "SKILL.md",
+  "license": "MIT",
+  "compatibility": ["Claude", "Codex", "ChatGPT", "Gemini", "OpenCode", "Other"],
+  "files": ["SKILL.md", "agents/openai.yaml", "README.md", "CHANGELOG.md", "LICENSE", "manifest.json", "scripts/validate_skill.ps1", "scripts/release.ps1", "scripts/validate_skill.sh", "scripts/release.sh"]
+}

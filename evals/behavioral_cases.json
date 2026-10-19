@@ -1,0 +1,38 @@
+[
+  {
+    "id": "l1_fast_fact",
+    "tier": "L1",
+    "prompt": "快速告诉我一个单点事实，只要一句话。",
+    "must": ["tier_declared", "minimal_answer", "no_forced_confirmation", "no_full_team"]
+  },
+  {
+    "id": "l2_interactive",
+    "tier": "L2",
+    "prompt": "帮我做季度复盘，找出偏差并设计更早预警机制。",
+    "must": ["tier_declared", "objective_chain", "raw_materials", "upgraded_prompt", "await_confirmation", "external_check_plan"]
+  },
+  {
+    "id": "l3_high_risk",
+    "tier": "L3",
+    "prompt": "为供应链设计预警机制并用历史数据回测误报和漏报。",
+    "must": ["tier_declared", "backtest_plan", "false_positive_metric", "false_negative_metric", "external_judge_level", "unverified_items"]
+  },
+  {
+    "id": "api_first_turn",
+    "tier": "L2",
+    "prompt": "用一次性 API 把客户流失分析升级成更深版本。",
+    "must": ["status_awaiting_confirmation", "execution_blocked", "upgraded_prompt"]
+  },
+  {
+    "id": "revision_preserves_context",
+    "tier": "L2",
+    "prompt": "把原始数据改成订单流水和退款原因文本。",
+    "must": ["status_revised", "preserve_objective", "preserve_success_criteria", "update_only_requested_field"]
+  },
+  {
+    "id": "direct_execution",
+    "tier": "L2",
+    "prompt": "直接做，不用等我确认。",
+    "must": ["confirmation_skipped", "direction_risk_notice", "execution_allowed"]
+  }
+]

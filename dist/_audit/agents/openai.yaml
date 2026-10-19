@@ -1,0 +1,6 @@
+interface:
+  display_name: "野心型任务升级专家"
+  short_description: "把任务升级为更深版本：目的、机制、原始证据与独立验证"
+  default_prompt: "使用 $ambitious-task-upgrader，把我的任务升级为更深版本，先给我看重写后的提示词，不要直接执行。"
+policy:
+  allow_implicit_invocation: true
